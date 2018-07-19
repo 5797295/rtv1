@@ -32,6 +32,7 @@ typedef struct	s_env
 	int			bpp;
 	int			size_line;
 	int			endian;
+	double		light[3];
 }				t_env;
 
 #endif
